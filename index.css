@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 600px;
+    width:350px;
+    margin-left: 40%;
+    border: 10px solid black;
+    border-radius: 25px;    
+    margin-top: 10px;
+    position: fixed;
+    
+}
+.navbar{
+    
+    /* border: 2px solid rgba(0, 128, 0, 0.59); */
+    height: 50px;
+    background-color: rgba(0, 128, 0, 0.915);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 350px;
+    top: 0px;
+    margin-top: 0px;
+  position: fixed;
+}
+
+
+.bi-arrow-left{
+    color:white;
+    margin-top: 10px;
+    
+}
+.item{
+display:inline-block;
+margin-top: 19px;
+position: fixed;
+z-index: 1;
+
+}
+.item2{
+   
+   margin-top: 3px;
+   
+    border-radius: 50%;
+    
+    width: 40px;
+    
+}
+img{
+    width:100%;
+    border-radius: 50%;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 10px;
+
+}
+.heading{
+ margin-top:15px ;
+ color: white;
+ margin-left: 54px;
+}
+.bi-camera-video{
+    margin-left: 220px;
+    margin-top: 13px;
+    color:rgba(255, 255, 255, 0.738);
+}
+.bi-telephone{
+    margin-top: 14px;
+    margin-left: 260px;
+    color: rgba(255, 255, 255, 0.742);
+}
+.bi-three-dots-vertical{
+     margin-top: 14px;
+    margin-left: 290px;
+    color: rgba(255, 255, 255, 0.742);
+
+}
+
+.bottomNavabar{
+    position: fixed;
+    /* border: 5px solid red; */
+    height: 50px;
+    width: 350px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: fixed;
+    background-color: rgba(117, 118, 119, 0.279);
+}
+.bottom{
+    height: 50px;
+    width: 290px;
+    background-color: rgb(159, 171, 170);
+    border-radius: 25px;
+    position: relative;
+    display: inline-block;
+    
+
+}
+.bimg{
+   
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 1px;
+    display: inline-block;
+    position: absolute;
+    
+}
+.form{
+    display: inline-block;
+    width: 140px;
+    margin-top: 12px;
+    border-radius: 15px;
+    height: 26px;
+    margin-left: 30px;
+    border: none;
+    background-color: rgba(223, 225, 227, 0.838);
+    color: rgb(12, 2, 2);
+    padding-left: 3px;
+    
+}
+.bottomscroll{
+    width: 350px;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin-top: 49px;
+
+    height: 500px;
+    background-image:url(https://e1.pxfuel.com/desktop-wallpaper/1014/197/desktop-wallpaper-backgrounds-whatsapp-green-whatsapp.jpg);
+   
+    
+    
+}
+.input{
+    margin-top: 2px;
+    /* border: 2px solid green; */
+
+    margin-left: 10px;
+    position: absolute;
+}
+.bi-paperclip{
+    /* position: absolute; */
+     
+    margin-top: 16px;
+    margin-left: 195px;
+    display: inline-block;
+   position: fixed;
+        
+}
+
+ .bi-camera{
+    margin-left: 250px;
+    margin-top: 14px;
+
+ }
+.bi-currency-rupee{
+    margin-left: 220px;
+    margin-top: 16px;
+    position: fixed;
+}
+
+.speaker{
+    display: inline-block;
+    margin-top: 0px;
+   
+    background-color: green;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  
+    position: fixed;
+    margin-left: 23px;
+}
+.bi-mic{
+   display: inline-block;
+   margin: 12px;
+   color: white;
+   position: fixed;
+   
+
+}
+ .first{
+   
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 308px;
+    position: relative;
+    
+    
+}
+.msg{
+    /* background-color: white; */
+      border-radius: 6px;
+      padding-left: 2px;
+
+}
+.textmsg{
+    display: inline-block;
+   
+   
+    position: absolute; 
+}
+.bi-check2-all{
+    margin-left: 18px;
+}
+.tick{
+    /* margin-top: 3px; */
+    color: rgb(6, 81, 125);
+}
+
+.second{
+    margin-top: 5px;
+    margin-left: 275px;
+    position: relative;
+    
+    background-color: white;
+
+}
+.tick2{
+    margin-left: 51px;
+}
+.date{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(229, 243, 238);
+    margin-left: 120px;
+    margin-top:10px;
+    position: sticky;
+    top: 5px;
+    width: 80px;
+    padding: 0px;
+    z-index: 1;
+}
+.day{
+    margin-left: 15px;
+}
+.day3{
+    margin-left: 0px;
+
+}
+.day2{
+    margin-left: 12px;
+
+}
+.date1{
+
+ margin-left: px;
+}
+.third{
+     margin-top: 10px;
+    margin-left: 240px;
+    position: relative;
+    
+    background-color: white;
+}
+.tick3{
+    margin-left: 88px;
+}
+.right{
+    /* border: 2px solid black; */
+    position: relative;
+    margin-top: 10px;
+    /* z-index: -1; */
+
+   
+
+}
+.textmsg1{
+     background-color: white;
+    border-radius: 6px;
+   width: 90px;
+
+}
+.fourth{
+     margin-top: 30px;
+    margin-left: 236px;
+    position: relative;
+    
+    background-color: white;
+  }
+  .tick4{
+    margin-left: 90px;
+}
+.fifth{
+     margin-top: 10px;
+    margin-left: 170px;
+    position: relative;
+    
+    background-color: white;
+
+}
+.tick5{
+    margin-left: 155px;
+}
+.sixth{
+      margin-top: 10px;
+    margin-left: 182px;
+    position: relative;
+    
+    background-color: white;
+
+}
+.tick6{
+    margin-left: 140px;
+}
+.seventh{
+      margin-top: 10px;
+    margin-left: 190px;
+    position: relative;
+    height: 40px;
+    
+    background-color: white;
+
+}
+.tick7{
+    margin-left: 134px;
+    margin-top: 19px;
+}
+.textmsg2{
+    margin-top: 2px;
+    
+    background-color: white;
+     border-radius: 6px;
+      width: 160px;
+    
+}
+.textmsg3{
+    margin-top: 10px;
+    
+    background-color: white;
+     border-radius: 6px;
+      width: 140px;
+
+}
+.msg8{
+      margin-top: 5px;
+    margin-left: 160px;
+    position: relative;
+    height: 40px;
+    
+    background-color: white;
+
+}
+.tick8{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.msg9{
+      margin-top: 5px;
+    margin-left: 130px;
+    position: relative;
+    height: 40px;
+    
+    background-color: white;
+
+}
+.tick9{
+    margin-top: 16px;
+    margin-left: 195px;
+}
+
+.textmsg4{
+     margin-top: 5px;
+    
+    background-color: white;
+     border-radius: 6px;
+      width: 100px;
+
+}
+.msg10{
+      margin-top: 5px;
+    margin-left: 160px;
+    position: relative;  
+    background-color: white;
+
+}
+.tick10{
+       margin-top: 5px;
+    margin-left: 165px;
+}
+.textmsg5{
+     margin-top: 5px;
+    
+    background-color: white;
+     border-radius: 6px;
+      width: 80px;
+
+}
+.msg11{
+    margin-top: 5px;
+    margin-left: 170px;
+    position: relative;
+    height: 40px;
+    
+    background-color: white;
+
+}
+.tick11{
+     margin-top: 20px;
+    margin-left: 155px;
+}
+.textmsg6{
+     margin-top: 5px;
+    
+    background-color: white;
+     border-radius: 6px;
+      width: 110px;
+
+}
+.textmsg7{
+     margin-top: 5px;
+    
+    background-color: white;
+     border-radius: 6px;
+      width: 140px;
+
+}
+.msg12{
+    margin-top: 5px;
+    margin-left: 200px;
+    position: relative;
+    height: 60px;
+    
+    background-color: white;
+
+}
+.tick12{
+     margin-top: 40px;
+    margin-left: 125px;
+}
+.msg13{
+      margin-top: 5px;
+    margin-left: 170px;
+    position: relative;  
+    background-color: white;
+    height: 40px;
+
+}
+.tick14{
+     margin-top: 20px;
+    margin-left: 163px;
+
+}
+.tick13{
+       margin-top: 20px;
+    margin-left: 158px;
+}
+.textmsg8{
+     margin-top: 5px;
+    
+    background-color: white;
+     border-radius: 6px;
+      width: 160px;
+
+}
+.msg15{
+    margin-top: 5px;
+    margin-left: 160px;
+    position: relative;
+    height: 40px;
+    
+    background-color: white;
+
+}
+.tick15{
+     margin-top: 20px;
+    margin-left: 165px;
+}
